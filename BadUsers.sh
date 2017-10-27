@@ -4,7 +4,7 @@ p=0
 
 usage="Usage: BadUsers.sh [-p]"
 
-#detecció d'opcions d'entrada: nomñes son vàlids: sense arametre i -p
+#detecció d'opcions d'entrada: només són vàlids: sense paràmetre i -p
 
 if [ $# -ne 0 ]; then
   if [ $# -eq 1 ]; then
